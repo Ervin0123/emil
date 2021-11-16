@@ -6,3 +6,12 @@ for x in szamok:
     szorzat=szorzat*x
 print(osszeg)
 print(szorzat)
+print (sum(szamok))
+vane=False
+for x in szamok:
+    if (x==1):
+        vane=True
+if (vane==True):
+    print("van")
+else:
+    print("nincs")
